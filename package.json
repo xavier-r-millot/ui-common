@@ -1,0 +1,14 @@
+{
+  "name": "ui-common",
+  "version": "1.0.0",
+  "description": "Elements common to MOSAIC react based apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "styled-components": "^4.4.1"
+  }
+}
