@@ -54,6 +54,14 @@ const FullWidthPanel = styled(ContentContainer)`
   min-height: 100%;
 `;
 
+const FullScreen = styled(ContentContainer)`
+  position: absolute;
+  left: ${halfPanelOffset};
+  right: ${halfPanelOffset};
+  top: ${halfPanelOffset};
+  height: 97%;
+`;
+
 const TextLine = styled.div`
   margin-top: ${p => `${(p.low) * 12}px`};
   display: flex;
@@ -95,6 +103,7 @@ const Layout = {
   ModalLayout,
   Dims,
   halfPanelOffset,
-  ThemePage
+  ThemePage,
+  FullScreen
 };
 export default Layout;

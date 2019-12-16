@@ -22,7 +22,9 @@ export const theme = {
 
   dims: {
     topBarHeight: "0px",
-    sideBarWidth: "220px"
+    sideBarWidth: "220px",
+    tableBorderWidth: "1.5px",
+
   },
 
   ali: (name) => {

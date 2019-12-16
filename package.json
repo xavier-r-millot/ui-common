@@ -8,7 +8,6 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "styled-components": "^4.4.1"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }

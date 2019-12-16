@@ -1,18 +1,16 @@
-import Loader from "./src/loading-spinner";
-import Text from "./src/text-combos";
-import Layout from "./src/layouts";
-import Button from "./src/buttons";
-import Tables from "./src/table-combos";
+import Loader from "./src/styles/loader-styles";
+import Tables from "./src/styles/table-styles";
+import Text from "./src/styles/text-styles";
+import Layout from "./src/styles/layout-styles";
+import Button from "./src/styles/button-styles";
 import Icon from './src/icons'
-import In from "./src/input-combos";
-import Img from "./src/img-combos";
-import { theme, colored } from "./src/constants";
-
-const AutoComplete = {
-};
-
+import In from "./src/styles/input-styles";
+import Img from "./src/styles/img-styles";
+import {theme, colored} from "./src/styles/constants";
+import {MosaicBaseStyle} from './src/styles/global-styles'
 
 export {
+  MosaicBaseStyle,
   Loader,
   Img,
   Text,
@@ -22,6 +20,5 @@ export {
   Tables,
   In,
   theme,
-  colored,
-  AutoComplete
+  colored
 };
