@@ -37,7 +37,6 @@ const LeftPanel = styled(ContentContainer)`
   left: ${halfPanelOffset};
   top: ${halfPanelOffset};
   height: 97%;
-  overflow-y: scroll;
 `;
 
 const RightPanel = styled(ContentContainer)`

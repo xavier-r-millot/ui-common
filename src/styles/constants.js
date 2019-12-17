@@ -54,3 +54,11 @@ export function colored(name){
     return theme.colors[color];
   } else return theme.colors.primaryColor;
 }
+
+export function colorContrast(name){
+  const useName = theme.colors[name] ? name : theme.ali(name);
+  if(['contrastFont', 'contentBackgroundColor'].includes(useName)){
+    return colored("primaryColor");
+  } else return colored("contrastFont");
+}
+

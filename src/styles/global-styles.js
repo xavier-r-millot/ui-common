@@ -17,6 +17,10 @@ export const MosaicBaseStyle = createGlobalStyle`
     background: ${colors.contentBackgroundColor};
   }
 
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
   h1, h2, h3, h4, h5, p, a, input, button, li{
     font-family: 'Montserrat', sans-serif;
     color: ${colors.primaryColor};
@@ -59,7 +63,7 @@ export const MosaicBaseStyle = createGlobalStyle`
   }
   
   .material-icons {
-    color: red;
+    color: ${colors.primaryColor};
   }
 
   :not(pre) > code[class*="language-"], pre[class*="language-"] {

@@ -1,13 +1,13 @@
 import styled from "styled-components";
-import {colored} from "./constants";
+import {colored, colorContrast} from "./constants";
 
 const StatusTag = styled.p`
   border-radius: 3px;
   padding: 5px 10px;
   text-align: center;
   display: inline-block;
-  color: ${p => p.theme.colors.contrastFont};
-  background: ${p => colored(p.emotion, p)};
+  color: ${p => colorContrast(p.emotion)};
+  background: ${p => colored(p.emotion)};
   margin-top: ${p => `${(p.top || 0) * 12}px`};
   margin-right: ${p => `${(p.right || 0) * 12}px`};
   margin-bottom: ${p => `${(p.bottom || 0) * 12}px`};
